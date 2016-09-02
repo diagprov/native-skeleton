@@ -1,0 +1,11 @@
+
+Notes:
+
+ 1) On Vista+, you need to enable SOS to see NtDisplayString output:
+
+ bcdedit /set {current} sos on
+
+ 2) This does not yet work with VS2012. It does however run on Windows 8.
+
+ 3) make.cmd is a workaround for a broken WDK7. Found on the OSR 
+    mailing lists.
